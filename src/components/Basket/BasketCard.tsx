@@ -23,7 +23,7 @@ const BasketCard: FC<IProps> = ({ isPage, item }) => {
         <p className="price">{item.price} ₽</p>
       </div>
       <button onClick={() => dispatch(delBasket(item.id))}>
-        <img src="./icons/trash.svg" alt="trash" />
+        <img src="../../../public/icons/trash.svg" alt="trash" />
       </button>
     </BasketCardStyle>
   );
