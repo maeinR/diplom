@@ -13,13 +13,13 @@ const Questions = () => {
             <button className="btn1">Отправить</button>
           </form>
         </div>
-        <img className="img-inst" src="/icons/insta.png" alt="image" />
+        <img className="img-inst" src="../../images/icons/insta.png" alt="image" />
         <ul className="inst-photos">
-          <li className="img-1"><img src="/inst-1.png" alt="image" /></li>
-          <li className="img-2"><img src="/inst-main.png" alt="image" /></li>
-          <li className="img-3"><img src="/inst-3.png" alt="image" /></li>
-          <li className="img-4"><img src="/inst-2.png" alt="image" /></li>
-          <li className="img-5"><img src="/inst-4.png" alt="image" /></li>
+          <li className="img-1"><img src="../../images/inst-1.png" alt="image" /></li>
+          <li className="img-2"><img src="../../images/inst-main.png" alt="image" /></li>
+          <li className="img-3"><img src="../../images/inst-3.png" alt="image" /></li>
+          <li className="img-4"><img src="../../images/inst-2.png" alt="image" /></li>
+          <li className="img-5"><img src="../../images/inst-4.png" alt="image" /></li>
         </ul>
       </div>
 

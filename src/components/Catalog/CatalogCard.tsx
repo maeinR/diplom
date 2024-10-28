@@ -20,10 +20,10 @@ const CatalogCard: FC<IProps> = ({ item }) => {
       <div className={isOpenModal ? "modal modal-open" : "modal"}>
         <div className="options">
           <button className="add" onClick={() => dispatch(postBasket(item))}>
-            <img src="../icons/add-to-basket.svg" alt="add to basket" />
+            <img src="../../../images/icons/add-to-basket.svg" alt="add to basket" />
           </button>
           <button className="add" onClick={() => dispatch(postBasket(item))}>
-            <img src="../icons/add-to-basket.svg" alt="add to basket" />
+            <img src="../../../images/icons/add-to-basket.svg" alt="add to basket" />
           </button>
         </div>
         <picture>
